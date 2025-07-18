@@ -1,0 +1,67 @@
+.banner-img {
+    height: 500px;
+    background-image: url(https://picsum.photos/1000);
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    min-height: 500px;
+    align-content: center;
+}
+.text-center {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+  .gradient-bg {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .typing-animation {
+      border-right: 2px solid #667eea;
+      animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+
+      0%,
+      50% {
+          border-color: transparent;
+      }
+
+      51%,
+      100% {
+          border-color: #667eea;
+      }
+  }
+
+  .skill-bar {
+      height: 8px;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      border-radius: 4px;
+      transition: width 3s ease-in-out;
+  }
+
+  .nav-active {
+      color: #667eea;
+  }
+
+  .section-padding {
+      padding: 5rem 0;
+  }
+
+  @media (max-width: 768px) {
+      .section-padding {
+          padding: 3rem 0;
+      }
+  }

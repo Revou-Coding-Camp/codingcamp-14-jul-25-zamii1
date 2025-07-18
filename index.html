@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Zami</title>
+
+    <!-- CSS Internal Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Tailwind CSS CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- google apis font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="bg-gray-50">
+        <!-- Navigation -->
+        <nav class="fixed top-0 w-full bg-white shadow-lg z-50 transition-all duration-300">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex-shrink-0">
+                        <a href="#home" class="text-2xl font-bold text-gray-800">Portfolio</a>
+                    </div>
+        
+                    <!-- Desktop Menu -->
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-8">
+                            <a href="#home"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                            <a href="#about"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">About</a>
+                            <a href="#skills"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Skills</a>
+                            <a href="#contact"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+                <button id="mobile-menu-button" class="md:hidden px-4 py-2">Menu</button>
+                <div id="mobile-menu" class="hidden">
+                    <a href="#home" class="block py-2 px-4">Home</a>
+                    <a href="#about" class="block py-2 px-4">About</a>
+                    <a href="#skills" class="block py-2 px-4">Skills</a>
+                    <a href="#contact" class="block py-2 px-4">Contact</a>
+                </div>
+    </header>
+        <!-- Main Content -->
+        <main>
+            <!-- Home Content -->
+            <section id="home">
+                <header>
+                    <h1 class="text-2xl font-bold text-center my-4 ">Welcome <span id="welcome-user"></span>!, To Muhammad Zami Portfolio
+                        Website
+                    </h1>
+                    <h2 id="typing-text" class=" font-monstserrat text-center text-xl my-4 "></h2>
+                </header>
+        
+                <div>
+        
+                    <div class="w-109 h-106 mx-auto bg-gray-200 bg-no-repeat bg-center bg-contain rounded-full"
+                        style="background-image: url('/image/user.jpg');">
+                    </div>
+
+                </div>
+            </section>
+        
+        <hr class="w-1/2 mx-auto border-gray-600 my-30">
+
+     
+        
+    
+            <!-- About Content -->
+            <section id="about" class="section-padding bg-white">
+                <section class="max-w-6xl mx-auto px-4">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl font-bold text-gray-800 mb-4">Tentang Saya</h2>
+                        <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto"></div>
+                    </div>
+            
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Passion untuk Teknologi</h3>
+                            <p class="text-gray-600 mb-6 leading-relaxed">
+                            Saya adalah seorang mahasiswa yang sedang mendalami dunia web development dan teknologi. Saat ini saya terus belajar dan
+                            mengembangkan keterampilan dalam membuat aplikasi web yang responsif dan user-friendly.
+                            
+                            
+                            </p>
+                            <p class="text-gray-600 mb-6 leading-relaxed">
+                                Saya percaya bahwa teknologi memiliki peran penting untuk memecahkan masalah sehari-hari dan memberikan manfaat nyata.
+                                Oleh karena itu, saya berkomitmen untuk terus belajar, berinovasi, dan menciptakan solusi yang bermanfaat sekaligus
+                                menyenangkan untuk digunakan.
+                            </p>
+<div class="flex space-x-4">
+    <a href="https://github.com/Revou-Coding-Camp/codingcamp-14-jul-25-zamii1" class="text-blue-600 hover:text-blue-800 text-xl"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/mhmmd_zxmi" class="text-blue-600 hover:text-blue-800 text-xl"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+<div class="bg-gray-100 p-8 rounded-lg">
+    <h4 class="text-xl font-semibold text-gray-800 mb-6">Informasi Personal</h4>
+    <div class="space-y-4">
+        <div class="flex justify-between">
+            <span class="text-gray-600">Nama:</span>
+            <span class="text-gray-800 font-medium">Muhammad Zami Al Zain</span>
+        </div>
+        <div class="flex justify-between">
+            <span class="text-gray-600">Email:</span>
+            <span class="text-gray-800 font-medium">muhammadzamial@gmail.com</span>
+        </div>
+        <div class="flex justify-between">
+            <span class="text-gray-600">Lokasi:</span>
+            <span class="text-gray-800 font-medium">Banyumas, Indonesia</span>
+        </div>
+        <div class="flex justify-between">
+            <span class="text-gray-600">Pekerjaan:</span>
+            <span class="text-gray-800 font-medium">Pelajar/Mahasiswa</span>
+        </div>
+        <div class="flex justify-between">
+            <span class="text-gray-600">Freelance:</span>
+            <span class="text-green-600 font-medium">Tersedia</span>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<hr class="w-1/2 mx-auto border-gray-600 my-30">
+                    <!-- Skills Section -->
+                    <section id="skills" class="section-padding bg-gray-50">
+                        <div class="max-w-6xl mx-auto px-4">
+                            <div class="text-center mb-16">
+                                <h2 class="text-4xl font-bold text-gray-800 mb-4">Keahlian</h2>
+                                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto"></div>
+                            </div>
+                    
+                            <div class="grid md:grid-cols-2 gap-12">
+                                <div>
+                                    <h3 class="text-2xl font-semibold text-gray-800 mb-8">Technical Skills</h3>
+                                    <div class="space-y-6">
+                                        <div class="skill-item">
+                                            <div class="flex justify-between mb-2">
+                                                <span class="text-gray-700 font-medium">HTML</span>
+                                                <span class="text-gray-600">90%</span>
+                                            </div>
+                                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                                <div class="skill-bar w-0 h-2 rounded-full" data-width="90%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="flex justify-between mb-2">
+                                                <span class="text-gray-700 font-medium">CSS</span>
+                                                <span class="text-gray-600">85%</span>
+                                            </div>
+                                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                                <div class="skill-bar w-0 h-2 rounded-full" data-width="85%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="flex justify-between mb-2">
+                                                <span class="text-gray-700 font-medium">JavaScript</span>
+                                                <span class="text-gray-600">70%</span>
+                                            </div>
+                                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                                <div class="skill-bar w-0 h-2 rounded-full" data-width="70%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="flex justify-between mb-2">
+                                                <span class="text-gray-700 font-medium">PHP</span>
+                                                <span class="text-gray-600">75%</span>
+                                            </div>
+                                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                                <div class="skill-bar w-0 h-2 rounded-full" data-width="75%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="flex justify-between mb-2">
+                                                <span class="text-gray-700 font-medium">Python</span>
+                                                <span class="text-gray-600">70%</span>
+                                            </div>
+                                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                                <div class="skill-bar w-0 h-2 rounded-full" data-width="70%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+  <hr class="w-1/2 mx-auto border-gray-600 my-30">
+       
+                <!-- Contact Section -->
+                <section id="contact" class="section-padding bg-gray-50">
+                    <div class="max-w-6xl mx-auto px-4">
+                        <div class="text-center mb-16">
+                            <h2 class="text-4xl font-bold text-gray-800 mb-4">Hubungi Saya</h2>
+                            <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto"></div>
+                        </div>
+                
+                        <div class="grid md:grid-cols-2 gap-12">
+                            <div>
+                                <div class="bg-white p-8 rounded-lg shadow-lg">
+                                    <form id="contact-form" class="space-y-6">
+                                        <div>
+                                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Nama</label>
+                                            <input type="text" id="name" name="name" required
+                                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                        </div>
+                                        <div>
+                                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                                            <input type="email" id="email" name="email" required
+                                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                        </div>
+                                        <div>
+                                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subjek</label>
+                                            <input type="text" id="subject" name="subject" required
+                                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                        </div>
+                                        <div>
+                                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Pesan</label>
+                                            <textarea id="message" name="message" rows="5" required
+                                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                                        </div>
+                                        <button type="submit"
+                                            class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                                            Kirim Pesan
+                                        </button>
+                                    </form>
+                                </div>
+                               </div>
+                                <!-- Display Section -->
+                                <div>
+                                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Preview Pesan</h3>
+                                        <div id="form-display" class="space-y-4 text-gray-600">
+                                            <p class="text-center text-gray-400 italic">Isi form di sebelah kiri untuk melihat preview
+                                                pesan di sini</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+
+<!-- Footer Content -->
+<footer>
+    <p class="text-center text-gray-600 py-4">© 2025 Muhammad Zami. All rights reserved.</p>
+</footer>
+                    <!-- JavaScript External Link -->
+                    <script src="js/script.js"></script>
+</body>
+</html>
