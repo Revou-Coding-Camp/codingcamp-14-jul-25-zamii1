@@ -1,0 +1,1 @@
+This is a simple portfolio website project created as a practice exercise to improve my skills in HTML, CSS (Tailwind CSS), and JavaScript. The goal of this project is to build a responsive and interactive personal portfolio that showcases basic front-end development techniques.
